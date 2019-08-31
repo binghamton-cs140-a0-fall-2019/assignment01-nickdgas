@@ -1,0 +1,121 @@
+
+TESTS FOR Computer.java:
+Mac, intel CORE i7, 16GB Memory, 2.0TB Solid State Drive, Price: $1599.99 
+Mac, intel CORE i5, 8GB Memory, 750GB Solid State Drive, Price: $699.99 
+Mac, intel CORE i5, 8GB Memory, 500GB Hard Drive, Price: $499.99 
+Mac, intel CORE i7, 16GB Memory, 1.5TB Hard Drive, Price: $1199.99 
+
+TESTS FOR Person.java:
+Nick Dagostino 333221111, 
+Date and place of birth: 2000-09-03, West Islip, New York, USA 
+123 Python Ln
+321 Java Rd
+West Islip, New York 11795
+
+TESTS FOR DateAndPlaceOfBirth.java:
+Date and place of birth: 2000-09-03, West Islip, New York, USA
+Date and place of birth: 2000-09-03, New York, New York, USA
+Date and place of birth: 1998-09-03, Binghamton, New York, USA
+Date and place of birth: 1999-07-21, Rome, Italy
+Date and place of birth: 2001-10-13, Paris, France
+false
+false
+false
+true
+false
+true
+true
+false
+true
+false
+false
+false
+true
+true
+false
+false
+false
+false
+false
+true
+false
+true
+true
+false
+true
+false
+false
+false
+true
+true
+false
+false
+true
+true
+true
+true
+false
+false
+false
+false
+false
+false
+false
+false
+true
+true
+false
+false
+true
+true
+false
+true
+false
+false
+true
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+true
+true
+true
+true
+false
+false
+false
+false
+false
+false
+false
+false
+
+TESTS FOR ComputerOwner.java:
+Computer List, Owner: Nick Dags 111223333, 
+Date and place of birth: 1999-03-09, Islip, New York, USA 
+321 Earl Blvd
+101 CS Rd
+West Islip, New York 11795
+Computers: [Mac, intel CORE i7, 16GB Memory, 2.0TB Solid State Drive, Price: $1599.99 , Mac, intel CORE i5, 8GB Memory, 750GB Solid State Drive, Price: $699.99 , Mac, intel CORE i5, 8GB Memory, 500GB Hard Drive, Price: $499.99 , Mac, intel CORE i7, 16GB Memory, 1.5TB Hard Drive, Price: $1199.99 ]
+Computer List, Owner: Nick Dags 111223333, 
+Date and place of birth: 1999-03-09, Islip, New York, USA 
+321 Earl Blvd
+101 CS Rd
+West Islip, New York 11795
+Computers: [Mac, intel CORE i7, 16GB Memory, 2.0TB Solid State Drive, Price: $1599.99 , Mac, intel CORE i5, 8GB Memory, 500GB Hard Drive, Price: $499.99 ]
+
+TESTS FOR StreetUSAddress.java:
+123 Main St
+321 Main St
+West Islip, New York 11795
+456 Java Rd
+Binghamton, New York 13905

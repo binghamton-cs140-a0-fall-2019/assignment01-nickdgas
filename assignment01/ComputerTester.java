@@ -5,17 +5,17 @@ import java.io.FileOutputStream;
 import java.io.PrintWriter;
 public class ComputerTester {
 	public static void main(String[] args) {
-		Computer computer1 = new computer("Mac", "intel CORE i7", 16, 2000, true, 1599.99);
-		System.out.println(computer1);
+		Computer comp1 = new Computer("Mac", "intel CORE i7", 16, 2000, true, 1599.99);
+		System.out.println(comp1);
 
-		Computer computer2 = new computer("Mac", "intel CORE i5", 8, 750, true, 699.99);
-		System.out.println(comuter2);
+		Computer comp2 = new Computer("Mac", "intel CORE i5", 8, 750, true, 699.99);
+		System.out.println(comp2);
 
-		Computer computer3 = new computer("Mac", "intel CORE i5", 8, 500, false, 499.99);
-		System.out.println(computer3);
+		Computer comp3 = new Computer("Mac", "intel CORE i5", 8, 500, false, 499.99);
+		System.out.println(comp3);
 
-		Computer computer4 = new computer("Mac", "intel CORE i7", 16, 1500, false, 1199.99);
-		System.out.println(computer4);
+		Computer comp4 = new Computer("Mac", "intel CORE i7", 16, 1500, false, 1199.99);
+		System.out.println(comp4);
 
 
 
@@ -27,17 +27,17 @@ public class ComputerTester {
 		// and replace every System.out.print or System.out.println
 		// by output.print or output.println
 
-		Computer computer12 = new computer("Mac", "intel CORE i7", 16, 2000, true, 1599.99);
-		output.println(computer12);
+		Computer comp12 = new Computer("Mac", "intel CORE i7", 16, 2000, true, 1599.99);
+		output.println(comp12);
 
-		Computer computer22 = new computer("Mac", "intel CORE i5", 8, 750, true, 699.99);
-		output.println(comuter22);
+		Computer comp22 = new Computer("Mac", "intel CORE i5", 8, 750, true, 699.99);
+		output.println(comp22);
 
-		Computer computer32 = new computer("Mac", "intel CORE i5", 8, 500, false, 499.99);
-		output.println(computer32);
+		Computer comp32 = new Computer("Mac", "intel CORE i5", 8, 500, false, 499.99);
+		output.println(comp32);
 
-		Computer computer42 = new computer("Mac", "intel CORE i7", 16, 1500, false, 1199.99);
-		output.println(computer42);
+		Computer comp42 = new Computer("Mac", "intel CORE i7", 16, 1500, false, 1199.99);
+		output.println(comp42);
 
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();

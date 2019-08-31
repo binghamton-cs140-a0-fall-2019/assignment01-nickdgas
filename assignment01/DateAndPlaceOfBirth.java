@@ -107,8 +107,17 @@ public class DateAndPlaceOfBirth {
 	 */
 	public boolean hasSameBirthDayAs(DateAndPlaceOfBirth other) {
   //TODO complete this method
-		return dayOfBirth.isEqual(other.dayOfBirth);
-  }
+		int d1 = dateOfBirth.getDayOfMonth();
+		int d2 = other.dateOfBirth.getDayOfMonth();
+		int m1 = dateOfBirth.getMonthValue();
+		int m2 = other.dateOfBirth.getMonthValue();
+		if (m1==m2 & d1==d2) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
 	@Override
 	public String toString() {
 		return "Date and place of birth: " + dateOfBirth + ", " + placeOfBirth;
